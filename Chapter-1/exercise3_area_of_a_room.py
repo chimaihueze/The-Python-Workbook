@@ -6,3 +6,9 @@ units in your prompt and output message; either feet or meters, depending on whi
 unit you are more comfortable working with.
 """
 
+width = float(input("Enter width: "))
+length = float(input("Enter length: "))
+
+area = width * length
+
+print("The area of the room is", area, "square feet.")
