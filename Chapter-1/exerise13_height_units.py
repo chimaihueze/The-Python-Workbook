@@ -9,8 +9,8 @@ Hint: One foot is 12 inches. One inch is 2.54 centimeters.
 feet = input("Enter number of feet: ")
 inches = input("Enter number of inches: ")
 
-ft_cm = float(feet) * 30.48 
-inch_cm = float(inches) * 2.54
+ft_cm = int(feet) * 30.48 
+inch_cm = int(inches) * 2.54
 
 cm = ft_cm + inch_cm
 
