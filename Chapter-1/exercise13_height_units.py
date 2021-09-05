@@ -12,6 +12,6 @@ inches = input("Enter number of inches: ")
 ft_cm = int(feet) * 30.48 
 inch_cm = int(inches) * 2.54
 
-cm = ft_cm + inch_cm
+cm = ft_cm + inch_cm 
 
-print("{}'{} inches converted to cm is {}".format(feet, inches, cm))
+print("{}'{} inches converted to cm is {}".format(feet, inches, cm))  
