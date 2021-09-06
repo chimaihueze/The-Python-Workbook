@@ -11,5 +11,7 @@ radius = float(input("Enter the radius: "))
 area = math.pi * (radius ** 2)
 volume = (4/3) * math.pi * (radius ** 3)
 
-print("The area of the circle is {}".format(area))
-print("The volune of the sphere is {}".format(volume))
+print("The area of the circle is {:.2f}".format(area))
+print("The volune of the sphere is {:.2f}".format(volume))
+
+# The outputs are set to display in 2 decimal places.
