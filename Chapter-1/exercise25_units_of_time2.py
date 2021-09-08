@@ -23,4 +23,4 @@ minutes = int(((seconds % secs_per_day) % secs_per_hour) / secs_per_minute)
 
 secs = (((seconds % secs_per_day) % secs_per_hour) % secs_per_minute)
 
-print("{} seconds contain {:02d}:{:02d}:{:02d}:{:02d}".format(seconds, days, hours, minutes, secs))
+print("{} seconds contain {}:{:02d}:{:02d}:{:02d}".format(seconds, days, hours, minutes, secs))
