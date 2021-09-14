@@ -16,3 +16,9 @@ The wind chill index is only considered valid for temperatures less than or
 equal to 10 degrees Celsius and wind speeds exceeding 4.8 kilometers per
 hour.
 """
+air_temp = float(input("Enter the air temperature (in degrees Celsius): "))
+wind_speed = float(input("Enter the wind speed (k/hr): "))
+
+wind_chill = 13.12 + (0.6215 * air_temp) - (11.37 * (wind_speed ** 0.16)) + (0.3965 * (air_temp * (wind_speed ** 0.16)))
+
+print("The wind chill is {}".format(round(wind_chill)))
