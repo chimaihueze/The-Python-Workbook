@@ -23,3 +23,5 @@ for k, v in shapes.items():
     # print(k)
     if num_sides == v:
         print("A shape with {} sides is called {}.".format(num_sides, k))
+    else:
+        print("Error! Wrong input!")
