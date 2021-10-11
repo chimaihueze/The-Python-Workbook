@@ -22,11 +22,6 @@ In particular, the frequency of any note in octave n is half the frequency of th
 By using this relationship, you should be able to add support for the additional notes without adding additional cases to your if
 statement.
 
-Hint: You will want to access the characters in the note entered by the user individually when completing this exercise. 
-Begin by separating the letter from the octave. 
-Then compute the frequency for that letter in the fourth octave using the data in the table above. 
-Once you have this frequency you should divide it by 24−x , where x is the octave number entered by the user. 
-This will halve or double the frequency the correct number of times.
 """
 
 # C4 = 261.63
