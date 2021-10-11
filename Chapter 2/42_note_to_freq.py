@@ -36,14 +36,10 @@ note_freq = (("C4", 261.63), ("D4", 293.66), ("E4", 329.63), ("F4", 349.23), ("G
 
 name = input("Enter name of note: ")
 
-# print(note)
-# print(octave)
-
 try:
     
     for i in note_freq:
    
-        
         if letter == i[0][0]:
             letter = name[0]
             octave = int(name[1])
