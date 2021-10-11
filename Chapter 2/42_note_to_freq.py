@@ -41,17 +41,26 @@ note_freq = (("C4", 261.63), ("D4", 293.66), ("E4", 329.63), ("F4", 349.23), ("G
 
 name = input("Enter name of note: ")
 
-letter = name[0]
-octave = int(name[1])
-
 # print(note)
 # print(octave)
 
-for i in note_freq:
-    if letter == i[0][0]:
-        freq = i[1]
-        freq2 = freq/(2**(4-octave))
+try:
     
-print("The frequency of note {} is {:.2f} Hz".format(name, freq2))
+    for i in note_freq:
+   
+        
+        if letter == i[0][0]:
+            letter = name[0]
+            octave = int(name[1])
+            freq = i[1]
+            freq2 = freq/(2**(4-octave))
+    
+    print("The frequency of note {} is {:.2f} Hz".format(name, freq2))
+    
+except:
+        print("Error! There's no such note as '{}', please try again!".format(name))
+    
+
+    
 
 
