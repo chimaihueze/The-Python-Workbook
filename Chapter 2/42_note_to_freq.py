@@ -35,6 +35,7 @@ statement.
 note_freq = (("C4", 261.63), ("D4", 293.66), ("E4", 329.63), ("F4", 349.23), ("G4", 329.00), ("A4", 440.00), ("B4", 493.88))
 
 name = input("Enter name of note: ")
+letter = name[0]
 
 try:
     
